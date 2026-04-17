@@ -1,4 +1,7 @@
-
+export const metadata = {
+  title: 'Developers',
+  description: 'all developers here',
+}
 
 const DevelopersPage = () => {
     return (

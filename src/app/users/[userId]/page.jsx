@@ -1,5 +1,7 @@
 import { useId } from "react";
 
+
+
 const UsersDetailsPage =async ({ params }) => {
     const {userId} = await params;
     const res = await fetch(`https://jsonplaceholder.typicode.com/users/${userId}`)

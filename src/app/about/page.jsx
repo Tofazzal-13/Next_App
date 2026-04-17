@@ -1,4 +1,8 @@
 import Image from "next/image";
+export const metadata = {
+  title: 'About',
+  description: 'all the users information',
+}
 
 const AboutPage = () => {
     return (
@@ -15,10 +19,9 @@ const AboutPage = () => {
                 loading="eager"
                 src="/don.jpg"
                 alt="don pic"
-                width="500"
-                height="300"
-
-            ></Image>
+                width={500}
+                height={300}         
+            />
         </div>
     );
 };

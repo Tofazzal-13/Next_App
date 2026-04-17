@@ -1,9 +1,13 @@
+export const metadata = {
+  title: 'Dashboard',
+  description: 'all the users information',
+}
 
 const DashboardPage = () => {
     return (
         <div>
             <h2>This is Dashing board</h2>
-            
+
         </div>
     );
 };
